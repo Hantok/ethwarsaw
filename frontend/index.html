@@ -18,7 +18,7 @@
     {
         margin:10px;
     //    min-width:300px;
-        min-height:300px;
+        min-height:400px;
         border: solid 1px #999999;
         border-radius: 10px;
         box-shadow: 4px 4px 8px #cccccc;
@@ -37,8 +37,10 @@
     }
     .title
     {
+	margin:10px;
         text-align:center;
         font-size:20px;
+	font-weight:bold;
     }
     .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited,.btn-primary:focus, .btn-primary:active:focus
     {
@@ -70,6 +72,21 @@
     //    width:90%;
         text-align:center;
     //    border:solid 1px red;
+    }
+    .itext
+    {
+	text-align:center;
+    }
+    .itext input
+    {
+	margin:0 auto;
+    }
+    .info
+    {
+	border-top:solid 1px #cccccc;
+	border-bottom:solid 1px #cccccc;
+	background:#eeeeee;
+	padding:10px;
     }
 </style>
 <body>
@@ -103,13 +120,20 @@
 <div class="container">
     <div class="row justify-content-center align-items-center">
 
+<!--  ----------------step 1------------------------------ -->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
-
                 <div class=title>
                     Tx Form
                 </div>
+
+		<div class=info>
+		Fot this place, you need insert you strong password
+		</div>
+		<div class=itext>
+		<span>Insert you password here:</span><br>
                 <input class="form-control form-control-lg w-75" type="text" placeholder="password (min lenght: 10)" minlength="10" id=ipasswd value="Hello!%">
+		</div>
 
                 <div class="btn_bottom w-100">
                     <input class="btn btn-primary w-75 btn_step" type="submit" value="Submit" onclick=create_hash()>
@@ -119,14 +143,14 @@
                 <script src="https://cdn.jsdelivr.net/npm/@ramp-network/ramp-instant-sdk@2.5.0/dist/ramp-instant-sdk.umd.js" integrity="sha256-YOWvxewL6tQoz1eAnLtjDvIX2Vhg6uzFsRvjmcAsom0=" crossorigin="anonymous"></script>
                 </head>
                 <body>
-                <button type="button" id="buy-with-ramp-button">Buy with Ramp</button>
+                <button type="button" id="buy-with-ramp-button" class="btn btn-primary w-75 btn_step">Buy with Ramp</button>
 
                 <!--- Start Ramp on button click -->
                 <script type="application/javascript">
                     const startRamp = () => {
                         new rampInstantSdk.RampInstantSDK({
                             hostAppName: 'Pimper',
-                            hostLogoUrl: '/Users/roman/dev/rundax/ethwarsaw/frontend/images/rundax-logo-ua.png',
+                            hostLogoUrl: 'https://'+window.location.hostname+'/images/logo-ua.png',
                         })
                             .on('*', (event) => console.log(event))
                             .show();
@@ -137,7 +161,7 @@
 
             </div>
         </div>
-
+<!-- ------------------------------------------------------ -->
 
     </div>
 </div>
