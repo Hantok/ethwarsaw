@@ -151,12 +151,27 @@
                         new rampInstantSdk.RampInstantSDK({
                             hostAppName: 'Pimper',
                             hostLogoUrl: 'https://'+window.location.hostname+'/images/logo-ua.png',
+swapAsset: 'MATIC_ECRUNDAX',
+swapAmount: 100,
+fiatCurrency: 100,
+fiatValue: 100,
+//userAddress: 
+hostAppName: 'Rundax',
+defaultAsset: 'MATIC_ECRUNDAX',
+//url: 'https://widget.hackaton.ramp-network.org/api/widget/config/',
+//url: 'https://api-instant.ramp.network/api/widget/config/',
+finalUrl: 'https://'+window.location.hostname+'/#step4',
+hostApiKey: '4x6aonzp2dodofstxv64ns6kkyjgqvnwb2xvzma4'
                         })
                             .on('*', (event) => console.log(event))
                             .show();
                     }
 
                     document.querySelector('#buy-with-ramp-button').addEventListener('click', startRamp);
+function changeuserAddress()
+{
+    startRamp.userAddress = newValue;
+}
                 </script>
 
             </div>
