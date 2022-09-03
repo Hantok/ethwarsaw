@@ -11,5 +11,5 @@
     <link rel='shortcut icon' type='image/svg+xml' href='favicon.svg' />
     <!--<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha3/build/sha3.min.js"></script>-->
     <script src="web3.min.js"></script>
-
+<script src="/ethers-5.2.umd.min.js" type="application/javascript"></script>
 </head>

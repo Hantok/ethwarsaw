@@ -26,9 +26,13 @@ $prev = "/2";
                     <input class="btn btn-primary w-75 btn_step" type="submit" value="Click to GENERATE" onclick=generate_wallet()>
                 </div>
 		
-		You wallet data:<br>
-		<textarea class="wtxt w-75" id=wallet_info></textarea>
-		<br><br>
+		You wallet address:<br>
+		<div id="wallet_address" class="wal"><span>0xe2e0256d6785d49ec7badcd1d44adbd3f6b0ab58</span>
+		</div>
+		You SEED:<br>
+		<div id="wallet_seed" class="wal"><span>sdf</span>
+		</div>
+
             </div>
 <?php
 include "arrow.php";

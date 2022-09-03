@@ -94,4 +94,21 @@
 	font-size:12px;
 	text-align:left;
     }
+    .wal
+    {
+	magin:20px;
+	font-weight:bold;
+    }
+    .wal span
+    {
+	
+	padding:2px 5px 2px 5px;
+	border:solid 1px #cccccc;
+    }
+    .wtxt
+    {
+	height:250px;
+	border:solid 1px #cccccc;
+	font-size:12px;
+    }
 </style>
