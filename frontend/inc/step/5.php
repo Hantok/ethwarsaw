@@ -14,7 +14,7 @@ $prev = "/2";
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
                 <div class=title>
-                    Wallet GENERATOR
+                    Get Ticket
                 </div>
 
 		<div class=info>
@@ -22,13 +22,6 @@ $prev = "/2";
 		</div>
 		<div class=msg><span id=msg_txt>&nbsp;</span></div>
 
-                <div class="btn_bottom w-100">
-                    <input class="btn btn-primary w-75 btn_step" type="submit" value="Get WALLET" onclick=generate_wallet()>
-                </div>
-		
-		You wallet data:<br>
-		<textarea class="wtxt w-75" id=wallet_info></textarea>
-		<br><br>
             </div>
 <?php
 include "arrow.php";
