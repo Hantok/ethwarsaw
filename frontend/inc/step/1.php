@@ -14,11 +14,11 @@ $next_enable = 1;
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
                 <div class=title>
-                    Pimper INTRO
+                    INTRO
                 </div>
 
 		<div class=info>
-		A simple as pimper
+		A simple as <b>Pimper</b>
 		</div>
 		<div class=msg><span id=msg_txt>&nbsp;</span></div>
 

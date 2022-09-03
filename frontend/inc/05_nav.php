@@ -14,6 +14,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://mumbai.polygonscan.com/address/0x38071bea64D222653Ca071f7c6378F303D4dFACC#code" target=_blank>SmartContract</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://devpost.com/software/pimper" target=_blank>Devpost</a>
+            </li>
         </ul>
     </div>
 </nav>

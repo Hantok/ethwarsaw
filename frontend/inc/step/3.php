@@ -18,11 +18,11 @@ $prev = "/2";
                     Tx Form
                 </div>
 		<div class=info>
-		Fot this place, you need insert you strong password
+            Insert a strong password (from 8 symbols, at least 1 digit, and a special character)
 		</div>
 		<div class=msg><span id=msg_txt>&nbsp;</span></div>
 		<div class=itext>
-		<span>Insert you password here:</span><br>
+		<span>Pimper password:</span><br>
                 <input class="form-control form-control-lg w-75" type="text" placeholder="password (min lenght: 10)" minlength="10" id=ipasswd value="Hello!%">
 		</div>
 
