@@ -4,6 +4,7 @@ $t = pathinfo($t);
 $t = $t[filename];
 $pid = $t;
 
+$msg = "Save DATA and click checkbox";
 $prev = "/2";
 ?>
 
@@ -28,7 +29,15 @@ $prev = "/2";
 		
 		You wallet data:<br>
 		<textarea class="wtxt w-75" id=wallet_info></textarea>
-		<br><br>
+		<br>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkbox_save" onclick=check_save();>
+  <label class="form-check-label" for="checkbox_save">
+    I save all data in SAFE place
+  </label>
+<br><br>
+</div>
+
             </div>
 <?php
 include "arrow.php";
