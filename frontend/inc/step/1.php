@@ -5,6 +5,7 @@ $t = $t[filename];
 $pid = $t;
 
 $next_enable = 1;
+$next = "/9";
 ?>
 
 <div class="container">

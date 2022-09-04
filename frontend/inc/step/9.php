@@ -4,7 +4,9 @@ $t = pathinfo($t);
 $t = $t[filename];
 $pid = $t;
 
-$prev = "/2";
+$msg = "Please, choose one option";
+$prev = "/1";
+
 ?>
 
 <div class="container">
@@ -14,22 +16,20 @@ $prev = "/2";
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
                 <div class=title>
-                    Buy ticket (by password)
+                    Select type of PIMPER
                 </div>
-
 		<div class=info>
-		Payments methods:
+		View my ticket or buy
 		</div>
-		<div class=msg><span id=msg_txt>&nbsp;</span>
-        </div>
-	<br>
-                <button class="btn btn-primary w-75 btn_step" onclick="ramp_link_generate('pass');">Card</button>
-                <br><br>OR<br><br>
-                <button class="btn btn-primary w-75 btn_step">Crypto (coming soon)</button>
+		<div class=msg><span id=msg_txt>&nbsp;</span></div>
+
+		<a href=/4 class="btn btn-primary w-75 btn_step">View</a>
+		<br><br>OR<br><br>
+		<a href=/2 class="btn btn-primary w-75 btn_step">Buy</a>
+
             </div>
 <?php
 include "arrow.php";
-
 ?>
         </div>
 <!-- ------------------------------------------------------ -->

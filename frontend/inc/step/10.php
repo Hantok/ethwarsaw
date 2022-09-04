@@ -23,7 +23,7 @@ $prev = "/2";
 		<div class=msg><span id=msg_txt>&nbsp;</span>
         </div>
 	<br>
-                <a href=/11 class="btn btn-primary w-75 btn_step" onclick="ramp_link_generate();">Claim NFT</button>
+                <a href=/12 class="btn btn-primary w-75 btn_step" onclick="ramp_link_generate();">Claim NFT</a>
             </div>
 <?php
 include "arrow.php";

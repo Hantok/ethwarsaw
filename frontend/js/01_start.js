@@ -3,9 +3,13 @@
     var x = web3.utils.soliditySha3({t: 'bytes32', v: '0x407D73d8a49eeb85D32Cf465507dd71d507100c1'});
     console.log(x);
 
-    function create_hash()
+    function create_hash(h='')
     {
-        var x = document.getElementById("ipasswd").value;
+	var x;
+	if(h)
+	x = h;
+	else
+        x = document.getElementById("ipasswd").value;
         console.log(x);
         var y;
         var l = x.length;
@@ -27,6 +31,9 @@
         console.log("S: "+s);
         y = web3.utils.soliditySha3({t: 'bytes32', v: s});
         console.log("Y: "+y);
+	y = "0x"+y.substring(26);
+        console.log("Y: "+y);
+	return y;
     }
 
     function toHex(d)

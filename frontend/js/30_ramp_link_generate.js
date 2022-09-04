@@ -6,12 +6,28 @@ function ramp_link_generate(t)
     switch(t)
     {
 	case "pass":
+	t = localStorage.getItem('pimper_pass');
+	if(t)
+	{
+	    h = create_hash(t);
+	    url = ramp_link(h,"/11");
+	    location.href = url;
+
+	}
+	else
+	{
+	    txt = "Password ERROR: return to prev page";
+	    set_msg_txt(txt);
+	    hide_msg_txt();
+
+	}
+
 	break;
 	default:
 	t = localStorage.getItem('wallet_addr');
 	if(t && t.length == 42)
 	{
-	    url = ramp_link(t);
+	    url = ramp_link(t,"/10");
 	    location.href = url;
 	}
 	else
@@ -22,10 +38,10 @@ function ramp_link_generate(t)
 	}
     }
 }
-function ramp_link(h)
+function ramp_link(h,r)
 {
     var url = "https://widget.hackaton.ramp-network.org/?swapAsset=MATIC_ECRUNDAX&swapAmount=100000000000000000000&userAddress="+h;
-    var t = "https://"+glob["domain"]+"/10";
+    var t = "https://"+glob["domain"]+r;
     url += '&finalUrl='+t;
     return url;
 }

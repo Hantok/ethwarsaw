@@ -32,10 +32,13 @@ $prev = "/2";
 
 		<div class=itext>
 		<span>YOUR Pimper password:</span><br>
-                <input class="form-control form-control-lg w-75" type="text" placeholder="password (min lenght: 10)" minlength="10" id=ipasswd value="Hello!%" onchange=checkbox_clear();>
+                <input class="form-control form-control-lg w-75" type="text" placeholder="password (min lenght: 10)" minlength="10" id=ipasswd value="Hello!%">
 		</div>
 
 
+                <div class="btn_bottom w-100">
+                    <input class="btn btn-primary w-75 btn_step" type="submit" value="Submit" onclick=create_hash()>
+                </div>
 
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkbox_save" onclick=check_password_save();>

@@ -5,7 +5,7 @@ $t = $t[filename];
 $pid = $t;
 
 $msg = "Please, choose one option";
-$prev = "/1";
+$prev = "/9";
 
 ?>
 
