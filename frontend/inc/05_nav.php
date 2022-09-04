@@ -9,7 +9,7 @@
                 <a class="nav-link" href="https://github.com/Hantok/ethwarsaw/" target=_blank>Github</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Youtube</a>
+                <a class="nav-link" href="https://youtu.be/j1cIfR8hzME" target=_blank>Youtube</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://mumbai.polygonscan.com/address/0x38071bea64D222653Ca071f7c6378F303D4dFACC#code" target=_blank>SmartContract</a>
