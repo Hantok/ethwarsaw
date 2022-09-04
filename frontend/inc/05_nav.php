@@ -17,6 +17,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://devpost.com/software/pimper" target=_blank>Devpost</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://ramp.network/" target=_blank><img src=/images/logo-ramp.svg style="width:30px;height:30px;"> Ramp</a>
+            </li>
         </ul>
     </div>
 </nav>
