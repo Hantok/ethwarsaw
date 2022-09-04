@@ -23,9 +23,9 @@ $prev = "/2";
 		<div class=msg><span id=msg_txt>&nbsp;</span>
         </div>
 	<br>
-                <a href=/13 class="btn btn-primary w-75 btn_step" onclick="">View Ticket</a>
+                <a href=/12 class="btn btn-primary w-75 btn_step" onclick="">View Ticket</a>
 		<br><br>OR<br><br>
-                <a href=/13 class="btn btn-primary w-75 btn_step" onclick="">Claim NFT</a>
+                <a href=/12 class="btn btn-primary w-75 btn_step" onclick="">Claim NFT</a>
             </div>
 <?php
 include "arrow.php";

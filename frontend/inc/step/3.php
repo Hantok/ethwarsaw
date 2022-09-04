@@ -7,6 +7,7 @@ $pid = $t;
 $msg = "Save PASSWORD and click checkbox";
 
 $prev = "/2";
+$next = "/6";
 
 ?>
 
