@@ -23,7 +23,7 @@ $prev = "/2";
 		<div class=msg><span id=msg_txt>&nbsp;</span>
         </div>
 	<br>
-                <button class="btn btn-primary w-75 btn_step" onclick="ramp_link_generate();">Card</button>
+                <button class="btn btn-primary w-75 btn_step" onclick="ramp_link_generate();"><img src=/images/logo-ramp.svg style="width:20px;height:20px;"> Card</button>
                 <br><br>OR<br><br>
                 <button class="btn btn-primary w-75 btn_step">Crypto (coming soon)</button>
             </div>
