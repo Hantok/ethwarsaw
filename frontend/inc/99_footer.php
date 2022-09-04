@@ -6,7 +6,7 @@ var glob = new Array();
 glob[\"next_enable\"] = \"$next_enable\";                                    
 glob[\"msg\"] = \"$msg\";
 glob[\"prev\"] = \"$prev\";
-
+glob[\"domain\"] = \"$domain\";
 ";                                                               
 print "</script>";                                               
 $f = "script.js";                                                

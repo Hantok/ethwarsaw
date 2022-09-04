@@ -2,7 +2,7 @@
 
 include "conf.php";
 
-$domen = $_SERVER['HTTP_HOST'];
+$domain = $_SERVER['HTTP_HOST'];
 $url = "https://".$domen."/";
 $t = $_SERVER['REQUEST_URI'];
 $t = explode("/",$t);

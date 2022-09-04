@@ -14,7 +14,7 @@ $prev = "/2";
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
                 <div class=title>
-                    Buy ticket (by wallet)
+                    Buy ticket
                 </div>
 
 		<div class=info>
@@ -24,7 +24,7 @@ $prev = "/2";
         </div>
 	<br>
                 <button class="btn btn-primary w-75 btn_step" onclick="ramp_link_generate();">Card</button>
-                <br><br>OR<br><br>
+                <br>OR<br>
                 <button class="btn btn-primary w-75 btn_step">Crypto (coming soon)</button>
             </div>
 <?php

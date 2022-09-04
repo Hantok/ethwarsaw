@@ -1,6 +1,6 @@
 function hide_msg_txt()
 {
-    setTimeout(hide_msg_txt_action,2000);
+    setTimeout(hide_msg_txt_action,3000);
 }
 function hide_msg_txt_action()
 {

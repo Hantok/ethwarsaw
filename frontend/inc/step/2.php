@@ -16,7 +16,7 @@ $prev = "/1";
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
                 <div class=title>
-                    Select type of PIMPER
+                    Select type of PIMPER [purchase]
                 </div>
 		<div class=info>
 		Get Ticket By
@@ -25,7 +25,7 @@ $prev = "/1";
 
 
 		<a href=/3 class="btn btn-primary w-75 btn_step">Password</a>
-		<br>OR<br>
+		<br><br>OR<br><br>
 		<a href=/4 class="btn btn-primary w-75 btn_step">Wallet</a>
 
             </div>
