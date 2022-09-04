@@ -23,7 +23,7 @@ $prev = "/1";
 		</div>
 		<div class=msg><span id=msg_txt>&nbsp;</span></div>
 
-		<a href=/4 class="btn btn-primary w-75 btn_step">View</a>
+		<a href=/12 class="btn btn-primary w-75 btn_step">View</a>
 		<br><br>OR<br><br>
 		<a href=/2 class="btn btn-primary w-75 btn_step">Buy</a>
 
