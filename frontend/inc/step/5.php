@@ -14,14 +14,17 @@ $prev = "/2";
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  col-centered text-center">
             <div class=pay>
                 <div class=title>
-                    Get Ticket
+                    Buy ticket
                 </div>
 
 		<div class=info>
-		!!! Store all on this page  in a safe place !!!
+		Payments methods:
 		</div>
-		<div class=msg><span id=msg_txt>&nbsp;</span></div>
-
+		<div class=msg><span id=msg_txt>&nbsp;</span>
+        </div>
+                <a href=/3 class="btn btn-primary w-75 btn_step">Card</a>
+                <br>OR<br>
+                <a href=/4 class="btn btn-primary w-75 btn_step">Crypto (coming soon)</a>
             </div>
 <?php
 include "arrow.php";
